@@ -8,9 +8,9 @@ const Home = () => {
       <Wrapper>
         <Header>this site has been hacked by antifa</Header>
         <HTwo>
-          please consider donating bitcoin to the george soros yacht fund:
-          39JPxGKfu1en9spR95UmSBZkef692i9iZY
+          don't look into it though
         </HTwo>
+        
       </Wrapper>
       <Footer />
     </>
@@ -43,6 +43,7 @@ const Header = styled.h1`
 const HTwo = styled.h2`
   color: white;
   text-align: center;
+  max-width: 50vw;
   @media (min-width: 1024px) {
     font-size: 18px;
   }
@@ -51,6 +52,7 @@ const HTwo = styled.h2`
   }
   @media (max-width: 414px) {
     font-size: 28px;
+    max-width: 20vw;
   }
 `;
 
