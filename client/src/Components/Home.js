@@ -25,6 +25,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: black;
+  margin: 0;
 `;
 const Header = styled.h1`
   color: white;

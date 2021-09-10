@@ -16,8 +16,9 @@ const Wrapper = styled.div`
 display: flex;
 justify-content: center;
 background-color: black;
-height: fit-content;
+height: 2rem;
 width: 100vw;
+z-index: 100;
 `
 const StyledLink = styled(Link)`
   color: white;
