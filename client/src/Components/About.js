@@ -6,8 +6,7 @@ const About = () => {
       <Wrapper>
         <BigText>dudgy</BigText>
         <ParText>
-          i thought it would be fun to squat some domains that might otherwise
-          be used by political organizations.{" "}
+         squatting on this domain because it is fun and a cool thing to do. 
         </ParText>
         <ParText>
           the domains cost about $30 CAD anually, donations are mandatory
