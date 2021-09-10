@@ -1,28 +1,30 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-return (
+  return (
     <>
-    <Wrapper>
-<StyledLink to="/about">About</StyledLink>
-    </Wrapper>
+      <Wrapper>
+        <StyledLink to="/about">About</StyledLink>
+      </Wrapper>
     </>
-)
-}
+  );
+};
 
 const Wrapper = styled.div`
-display: flex;
-justify-content: center;
-background-color: black;
-height: 2rem;
-width: 100vw;
-z-index: 100;
-`
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 2rem;
+  width: 100vw;
+  z-index: 100;
+`;
 const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
   @media (min-width: 1024px) {
     font-size: 10px;
   }
@@ -33,4 +35,4 @@ const StyledLink = styled(Link)`
     font-size: 20px;
   }
 `;
-export default Footer
+export default Footer;
